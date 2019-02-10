@@ -27,12 +27,4 @@ def printer(attendees)
   p assigments.push(assign_rooms(attendees))
 end
 
-  
-
-    
- 
-  
-   .push()
-  p assign_rooms(attendees)
-end 
     
