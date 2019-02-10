@@ -21,7 +21,20 @@ def assign_rooms(speakers)
 end 
 
 def printer(attendees)
-  p batch_badge_creator(attendees)
+  welcome = []
+  assignments = []
+  welcome.push(batch_badge_creator(attendees))
+  assigments.push(assign_rooms(attendees))
+  p welcome 
+  p assigments
+end
+
+  
+
+    
+ 
+  
+   .push()
   p assign_rooms(attendees)
 end 
     
