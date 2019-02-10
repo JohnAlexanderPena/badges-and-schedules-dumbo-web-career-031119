@@ -23,8 +23,10 @@ end
 def printer(attendees)
   welcome = []
   assignments = []
-  p welcome.push(batch_badge_creator(attendees))
-  p assigments.push(assign_rooms(attendees))
+   welcome.push(batch_badge_creator(attendees))
+   assigments.push(assign_rooms(attendees))
+   p welcome 
+   p assigments
 end
 
     
