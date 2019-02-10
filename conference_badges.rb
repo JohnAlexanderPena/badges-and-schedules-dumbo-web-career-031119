@@ -9,6 +9,6 @@ def batch_badge_creator(name_array)
   end
   badge_messages
 end
-end 
+
     
     
