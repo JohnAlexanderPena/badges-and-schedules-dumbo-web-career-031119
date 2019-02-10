@@ -23,8 +23,10 @@ end
 def printer(attendees)
    for name in batch_badge_creator(attendees)
    puts name
+ end 
    for room in assign_rooms(attendees)
    puts room
+ end 
 end
 
     
