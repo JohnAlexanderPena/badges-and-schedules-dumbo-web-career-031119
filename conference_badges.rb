@@ -28,6 +28,7 @@ def printer(attendees)
   p welcome 
   p assigments
 end
+end
 
   
 
