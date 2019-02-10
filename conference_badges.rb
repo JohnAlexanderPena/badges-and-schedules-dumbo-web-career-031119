@@ -14,7 +14,7 @@ def assign_rooms(speakers)
   rooms = []
   num = 1
   for i in speakers do 
-    rooms.push("Hello, #{i}! You'll be assigned to room #{num}!")
+   p rooms.push("Hello, #{i}! You'll be assigned to room #{num}!")
     num += 1 
   end 
 end 
