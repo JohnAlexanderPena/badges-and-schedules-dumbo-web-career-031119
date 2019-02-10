@@ -22,10 +22,7 @@ end
 
 def printer(attendees)
    for name in batch_badge_creator(attendees)
-   puts name.chomp
- end 
-   for room in assign_rooms(attendees)
-   puts room.chomp
+   puts name
  end 
 end
 
